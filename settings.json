@@ -1,0 +1,5 @@
+{
+  "prisma": {
+    "database_url": "mysql://your:planetscale-connection-string@us-west.connect.psdb.cloud/organization-name?sslaccept=strict"
+  }
+}

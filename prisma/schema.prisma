@@ -1,0 +1,15 @@
+datasource db {
+  provider     = "mysql"
+  url          = ""
+  relationMode = "prisma"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Top level model
+model User {
+  id    String @id @default(uuid())
+  email String @unique
+}
